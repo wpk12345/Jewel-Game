@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jewel Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jewel Collector!</h1>
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four jewels below. By clicking on a jewel you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total core goes above the random number.</p>
+            <p>The value of each jewel is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each jewel.</p>
+        </div>
+        <div id="start">
+            <p>Push the green button to play</p>
+            <button id="start-button" type="button" class="btn btn-success">Play</button>
+            <div id="current-score">
+            </div>
+            <div id="win-loss">
+                <p id="wins">Wins: </p>
+                <p id="loss">Losses: </p>
+            </div>
+            <img id="img1" src="assets/images/jewel1.png" alt="jewelone">
+            <img id="img2" src="assets/images/jewel2.jpg" alt="jeweltwo">
+            <img id="img3" src="assets/images/jewel3.jpeg" alt="jewelthree">
+            <img id="img4" src="assets/images/jewel4.png" alt="jewelfour">
+            <div id="beginNum">
+                <p>Beginning Number: <span id="targetNum"></span></p>
+            </div>
+            
+            <div id="total">
+                <p>Current Score: <span id="totalNum"></span></p>
+            </div>
+            
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
