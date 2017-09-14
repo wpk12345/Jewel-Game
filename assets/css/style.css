@@ -18,3 +18,9 @@ img {
 	margin-top: center;
 	font-family: 'Acme', sans-serif;
 }
+
+#instructions {
+
+	background-color: #e3eae3;
+	padding: 10px;
+}

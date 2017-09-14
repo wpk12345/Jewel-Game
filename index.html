@@ -14,14 +14,16 @@
         <div class="row">
             <h1>Jewel Collector!</h1>
         </div>
+        <button id="help-button" type="button" class="btn btn-info">Instructions</button>
+        <button id="start-button" type="button" class="btn btn-success">Play</button>
         <div id="instructions">
-            <button id="instructions-button" type="button" class="btn btn-info">Instructions</button>
-            <button id="start-button" type="button" class="btn btn-success">Play</button>
-            <p>You will be given a random number at the start of the game.</p>
-            <p>There are four jewels below. By clicking on a jewel you will add a specific amount of points to your total score.</p>
-            <p>You win the game by matching your total score to random number, you lose the game if your total core goes above the random number.</p>
-            <p>The value of each jewel is hidden from you until you click on it.</p>
-            <p>Each time when the game starts, the game will change the values of each jewel.</p>
+            <ul>
+                <li>You will be given a random number at the start of the game.</li>
+                <li>There are four jewels below. By clicking on a jewel you will add a specific amount of points to your total score.</li>
+                <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+                <li>The value of each jewel is hidden from you until you click on it.</li>
+                <li>Each time when the game starts, the game will change the values of each jewel.</li>
+            </ul>
         </div>
         <div id="start">
             <p id="pushed">Push the green button to play</p>
@@ -36,10 +38,10 @@
             <img class="image" id="img3" src="assets/images/jewel3.jpeg" alt="jewelthree">
             <img class="image" id="img4" src="assets/images/jewel4.png" alt="jewelfour">
             <div id="beginNum">
-                <p>Beginning Number: <span id="targetNum"></span></p>
+                <p>Random Number: <span id="targetNum"></span></p>
             </div>
             <div id="total">
-                <p>Current Number: <span id="totalNum"></span></p>
+                <p>Total Score: <span id="totalNum"></span></p>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>

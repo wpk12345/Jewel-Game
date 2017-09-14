@@ -1,9 +1,12 @@
 $(document).ready(function() {
 
+    $("#instructions").hide();
 
- $("#instructions").click(function(){
-    
- });
+    $("#help-button").click(function() {
+        $("#instructions").toggle();
+
+    })
+
 
     $("#start-button").click(function() {
         $("#start-button, #pushed").hide();
