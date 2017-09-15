@@ -1,26 +1,46 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    background-color: #def0f2;
+}
+
+
 img {
     height: 100px;
     width: 100px;
-  
 }
 
-.row  {
-	text-align: center;
-	background-color: #346299;
-	margin-top: 0;
-	color: white;
-	padding-bottom: 20px;
-
+.row {
+    text-align: center;
+    background-color: #346299;
+    margin-top: 0;
+    color: white;
+    padding-bottom: 20px;
 }
 
 .row h1 {
-	font-size: 50px;
-	margin-top: center;
-	font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    margin-top: center;
+    font-family: 'Acme', sans-serif;
 }
 
 #instructions {
 
-	background-color: #e3eae3;
-	padding: 10px;
+    background-color: #e3eae3;
+    padding: 10px;
+}
+
+#win-loss {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#quit-video {
+
+    height: auto;
+    width: auto;
 }

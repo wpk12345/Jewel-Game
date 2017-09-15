@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+
+    //hiding instructions so they are only availible upon toggling the instructions button
     $("#instructions").hide();
 
     $("#help-button").click(function() {
@@ -8,9 +10,12 @@ $(document).ready(function() {
     })
 
 
+
+    //using a start button to begin the game
+    //start button dissapears after pressed so user can't press twice
     $("#start-button").click(function() {
         $("#start-button, #pushed").hide();
-   
+
 
         var startValue = Math.floor(Math.random() * 101) + 19;
         var wins = 0;
@@ -118,6 +123,8 @@ $(document).ready(function() {
                 $("#totalNum").html(counter);
             }
         })
+
+
         //reset function that can be called when user wins or losses
         function reset() {
             startValue = Math.floor(Math.random() * 101) + 19;
@@ -131,8 +138,6 @@ $(document).ready(function() {
             img4 = Math.floor(Math.random() * 12) + 1;
             console.log(img1, img2, img3, img4);
             //I want to change the "Beginning number to New Number"
-
-
         }
     })
 
