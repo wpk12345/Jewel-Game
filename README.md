@@ -9,4 +9,4 @@ Each time when the game starts, the game will change the values of each jewel.
 
 Use the link below to play the game.  Good Luck!
 
-[a link]( https://wpk12345.github.io/week-4-game/)
+[DA LINK]( https://wpk12345.github.io/week-4-game/)
