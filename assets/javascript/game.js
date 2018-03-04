@@ -26,7 +26,7 @@ $(document).ready(function() {
         var img2 = Math.floor(Math.random() * 12) + 1;
         var img3 = Math.floor(Math.random() * 12) + 1;
         var img4 = Math.floor(Math.random() * 12) + 1;
-        console.log(img1, img2, img3, img4);
+      console.log(img1, img2, img3, img4);
 
         //puts the starting # in the html
         $("#targetNum").html(startValue);
